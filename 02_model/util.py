@@ -22,7 +22,8 @@ def normal_std(x):
     return x.std() * np.sqrt((len(x) - 1.)/(len(x)))
 
 class DataLoader(object):
-    '''Lots of the info is extrapolated from Zaid'''
+    '''The core logic has been extrapolated by E. Nolan from a function by Zaid.
+    Specific additions by E. Nolan are marked directly in the methods.'''
     col = None  # Class variable to hold column names
 
     def __init__(self, file_name, train, valid, device, horizon, window, normalize=2, out=1, graph_file=None):
@@ -32,10 +33,9 @@ class DataLoader(object):
         self.normalize_type = normalize
         self.out_len=out
 
-        #  Parse Data
+        # Added by E Nolan
         self.col_names, self.rawdat, self.time_label = self.load_data(file_name)
         self.time_steps, self.num_nodes = self.rawdat.shape
-
         self.prim_nodes = self.get_prim_nodes(graph_file)
 
         #  Normalisation
@@ -64,6 +64,7 @@ class DataLoader(object):
         DataLoader.col = self.col_names
 
     def load_data(self, file_name):
+        '''Modified by E Nolan'''
         # Read the CSV file of the dataset
 
         if not os.path.exists(file_name):
@@ -180,6 +181,7 @@ class DataLoader(object):
         return adj
 
     def get_prim_nodes(self, graph_file=None):
+        '''Added by E Nolan'''
         prim_nodes = {}
         if graph_file:
             key_nodes = set()
@@ -195,34 +197,9 @@ class DataLoader(object):
                         "node_index": i,
                         "node_name": name
                     }
-
-        return prim_nodes
-
         if not graph_file or not os.path.exists(graph_file):
             prim_nodes = self.col_names
             print('No primary nodes set. Using all columns as primary nodes.')
- 
-        # Initialize an empty dictionary with default value as an empty list
-        graph = defaultdict(list)
-        with open(graph_file, 'r') as f:
-            reader = csv.reader(f)
-            # Iterate over each row in the CSV file
-            for row in reader:
-                # Extract the key node from the first column
-                key_node = row[0]
-                # Extract the adjacent nodes from the remaining columns
-                adjacent_nodes =  [node for node in row[1:] if node]#does not include empty columns
-                
-                # Add the adjacent nodes to the graph dictionary
-                graph[key_node].extend(adjacent_nodes)
-        print('Graph loaded with',len(graph),'attacks...')
-        # Print the column names list
-        print(len(self.col_names), 'columns loaded...')
-
-        prim_nodes = []
-        for key_node, adjacent_nodes in graph.items():
-            if key_node in self.col_names:
-                prim_nodes.append(key_node)
 
         return prim_nodes
 
