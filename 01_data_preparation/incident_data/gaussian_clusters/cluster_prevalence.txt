@@ -1,0 +1,16 @@
+Cluster,Prevalence
+cluster_5_score,5974
+cluster_2_score,3977
+cluster_12_score,3870
+cluster_7_score,3584
+cluster_10_score,3275
+cluster_9_score,3137
+cluster_1_score,2950
+cluster_14_score,2851
+cluster_0_score,2692
+cluster_4_score,2614
+cluster_13_score,2357
+cluster_11_score,2264
+cluster_8_score,2179
+cluster_3_score,1984
+cluster_6_score,1339

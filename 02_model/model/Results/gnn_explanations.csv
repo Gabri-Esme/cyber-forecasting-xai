@@ -1,0 +1,197 @@
+node_id,node_name,timestep,feature_index,importance_score
+34,Solution_Identity-Based Encryption (IBE)_Mentions,1,0,0.45499924
+170,Solution_DATA AUGMENTATION_Mentions,1,0,0.45377398
+96,cluster_4_score,1,0,0.4487669
+144,Solution_CAPTCHA_Mentions,1,0,0.44695467
+195,Solution_NLP/LLM_Mentions,1,0,0.44666147
+174,Solution_SPATIAL SMOOTHING_Mentions,1,0,0.44597197
+16,Cryptography/Encryption,1,0,0.44426084
+64,Static Analysis,1,0,0.44340223
+167,Solution_BIOMETRICS_Mentions,1,0,0.4432597
+172,Solution_DEFENSIVE DISTILLATION_Mentions,1,0,0.44292635
+28,Game Theory,1,0,0.44039825
+113,Vulnerability-ALL,1,0,0.4399597
+95,cluster_3_score,1,0,0.43718195
+186,Solution_SIEM_Mentions,1,0,0.43597952
+129,Mentions-Deepfake,1,0,0.43413085
+43,NLP/LLM,1,0,0.4339538
+134,Solution_ACCESS CONTROL_Mentions,1,0,0.43233588
+190,Solution_PASSWORD POLICY_Mentions,1,0,0.43232617
+136,Solution_SUPPLY CHAIN RISK MANAGEMENT_Mentions,1,0,0.43117464
+192,Solution_DISTRIBUTED LEDGERS_Mentions,1,0,0.4310213
+128,Mentions-Data Poisoning,1,0,0.430951
+115,Advanced persistent threat-ALL,1,0,0.43089852
+116,Malware-ALL,1,0,0.4305418
+81,Mentions-Dropper,1,0,0.43013287
+151,Solution_STRONG AUTHENTICATION_Mentions,1,0,0.42982402
+138,Solution_ANOMALY DETECTION_Mentions,1,0,0.42924544
+168,Solution_DIGITAL WATERMARK_Mentions,1,0,0.42850152
+126,Mentions-DNS Spoofing,1,0,0.4280275
+193,Solution_SOURCE IDENTIFICATION_Mentions,1,0,0.42782527
+169,Solution_DATA BACKUPS_Mentions,1,0,0.4271034
+147,Solution_SOFTWARE DEFINED NETWORK_Mentions,1,0,0.4270933
+3,Access Control,1,0,0.42667344
+121,Botnet-ALL,1,0,0.42576632
+166,Solution_3D FACE RECONSTRUCTION_Mentions,1,0,0.4252932
+110,Password Attack-ALL,1,0,0.4252879
+27,Solution_FORMAL VERIFICATION_Mentions,1,0,0.42495
+158,Solution_Bayesian Network_Mentions,1,0,0.42442623
+1,avg_youtube_views,1,0,0.4241815
+80,Mentions-Disinformation/Misinformation,1,0,0.4239158
+142,Solution_STATIC ANALYSIS_Mentions,1,0,0.4237594
+97,cluster_5_score,1,0,0.42352393
+89,Mentions-Trojan,1,0,0.4233933
+153,Solution_HTTPS_Mentions,1,0,0.4223748
+21,Solution_DATA PROVENANCE_Mentions,1,0,0.42211708
+11,Blockchain,1,0,0.419519
+123,Mentions-Brute Force Attack,1,0,0.41932666
+137,Solution_ML/DL_Mentions,1,0,0.41850317
+130,Mentions-Supply Chain,1,0,0.41837585
+143,Solution_SESSION MANAGEMENT_Mentions,1,0,0.41823864
+29,Solution_GRAPHICAL AUTHENTICATION_Mentions,1,0,0.41810596
+114,Zero-day-ALL,1,0,0.4180507
+88,Mentions-Targeted Attack,1,0,0.41802013
+182,Solution_DNSSEC_Mentions,1,0,0.41793278
+23,Distributed Ledgers Technology,1,0,0.4176938
+51,Privacy Preserving,1,0,0.41734186
+108,Phishing-ALL,1,0,0.41730303
+178,Solution_RISK ASSESSMENT_Mentions,1,0,0.41708073
+141,Solution_IDS/IPS_Mentions,1,0,0.41695344
+101,cluster_9_score,1,0,0.4162852
+173,Solution_RRAM_Mentions,1,0,0.41622457
+63,Standardised Communication,1,0,0.4161707
+103,cluster_11_score,1,0,0.41549557
+175,Solution_NOISE INJECTION_Mentions,1,0,0.4147506
+120,Backdoor-ALL,1,0,0.41432914
+154,Solution_DATA SANITIZATION_Mentions,1,0,0.41290793
+75,Mentions-Advanced persistent threat,1,0,0.4125382
+155,Solution_OUTLIER DETECTION_Mentions,1,0,0.4122396
+139,Solution_CRYPTOGRAPHY_Mentions,1,0,0.41210377
+77,Mentions-Backdoor,1,0,0.41197395
+0,youtube_views,1,0,0.41192362
+83,Mentions-Malware,1,0,0.41172642
+171,Solution_DIMENSIONALITY REDUCTION_Mentions,1,0,0.41153777
+24,Solution_DYNAMIC ANALYSIS_Mentions,1,0,0.41147405
+50,Penetration Testing,1,0,0.410849
+90,Mentions-Vulnerability,1,0,0.4107238
+56,SIEM,1,0,0.41060364
+54,Rate Limiting,1,0,0.40961683
+102,cluster_10_score,1,0,0.40957135
+133,Solution_BLOCKCHAIN_Mentions,1,0,0.4094043
+62,Source Identification,1,0,0.40903285
+38,Solution_LEAST PRIVILEGE_Mentions,1,0,0.40872675
+191,Solution_ACTIVITY MONITORING_Mentions,1,0,0.40857342
+85,Mentions-Phishing,1,0,0.40681553
+100,cluster_8_score,1,0,0.40607265
+76,Mentions-Account Hijacking,1,0,0.40582597
+30,Graphical Model,1,0,0.40566543
+179,Solution_SANDBOXING_Mentions,1,0,0.4052311
+33,Solution_IDENTITY MANAGEMENT_Mentions,1,0,0.4032289
+146,Solution_GRAPHICAL MODEL_Mentions,1,0,0.4031893
+35,Image Recognition,1,0,0.40287885
+148,Solution_GAME THEORY_Mentions,1,0,0.4028611
+93,cluster_1_score,1,0,0.40280882
+82,Mentions-Insider Threat,1,0,0.40239525
+135,Solution_ENCRYPTION_Mentions,1,0,0.4021954
+165,Solution_LIVENESS DETECTION_Mentions,1,0,0.40138218
+181,Solution_DYNAMIC BINARY INSTRUMENTATION_Mentions,1,0,0.4010095
+187,Solution_STANDARDIZED COMMUNICATION_Mentions,1,0,0.40091527
+152,Solution_SSL/TLS_Mentions,1,0,0.40069342
+161,Solution_VPN_Mentions,1,0,0.40063477
+189,Solution_PASSWORD STRENGTH METERS_Mentions,1,0,0.40056646
+164,Solution_MERKLE SIGNATURE_Mentions,1,0,0.4000748
+44,Solution_NETWORK SEGMENTATION_Mentions,1,0,0.3998461
+185,Solution_VULNERABILITY ASSESSMENT_Mentions,1,0,0.39918223
+79,Mentions-DDoS,1,0,0.3991163
+163,Solution_SECURE BOOT_Mentions,1,0,0.39859602
+2,Holidays,1,0,0.3985931
+122,Cryptojacking-ALL,1,0,0.39842018
+157,Solution_TRUSTWORTHY AI_Mentions,1,0,0.39688656
+86,Mentions-Ransomware,1,0,0.39632988
+73,Vulnerability Management,1,0,0.39544302
+78,Mentions-Botnet,1,0,0.39431646
+127,Mentions-Adversarial Attack,1,0,0.39405602
+36,Solution_INTRUSION DETECTION/PREVENTION SYSTEM_Mentions,1,0,0.39399502
+70,VPN,1,0,0.3937475
+67,Supply Chain Risk Management,1,0,0.393387
+132,WAR/CONFLICT ALL,1,0,0.39315286
+105,cluster_13_score,1,0,0.39305854
+162,Solution_PRIVACY PRESERVING_Mentions,1,0,0.39305314
+111,Account Hijacking-ALL,1,0,0.3923718
+4,Activity Monitoring,1,0,0.39202327
+125,Mentions-MITM,1,0,0.39149746
+53,Rank Correlation,1,0,0.39087647
+184,Solution_SECURE SIMPLE PAIRING_Mentions,1,0,0.39079994
+55,Risk Assessment,1,0,0.390357
+91,Mentions-Zero-day,1,0,0.389851
+40,Solution_MOVING TARGET DEFENSE_Mentions,1,0,0.38848406
+104,cluster_12_score,1,0,0.3879219
+156,Solution_ADVERSARIAL TRAINING_Mentions,1,0,0.38782233
+118,Targeted Attack-ALL,1,0,0.38740376
+150,Solution_RANK CORRELATION_Mentions,1,0,0.3863909
+98,cluster_6_score,1,0,0.38563865
+183,Solution_CERTIFICATE PINNING_Mentions,1,0,0.38555872
+149,Solution_TRAFFIC SHAPING_Mentions,1,0,0.38555786
+72,Vulnerability Assessment,1,0,0.3853225
+57,SSL/TLS,1,0,0.3848769
+140,Solution_PENETRATION TESTING_Mentions,1,0,0.3838341
+160,Solution_VULNERABILITY MANAGEMENT_Mentions,1,0,0.3834795
+84,Mentions-Password Attack,1,0,0.382325
+177,Solution_USER BEHAVIOR ANALYTICS_Mentions,1,0,0.38189852
+41,Solution_MULTI FACTOR AUTHENTICATION_Mentions,1,0,0.3818464
+109,Ransomware-ALL,1,0,0.38132408
+107,DDoS-ALL,1,0,0.38030025
+188,Solution_VULNERABILITY SCANNER_Mentions,1,0,0.37905258
+176,Solution_TAINT ANALYSIS_Mentions,1,0,0.37782586
+124,Mentions-Cryptojacking,1,0,0.37448874
+12,CAPTCHA,1,0,0.3742017
+180,Solution_VIRTUAL KEYBOARDS_Mentions,1,0,0.37335715
+112,Trojan-ALL,1,0,0.3720571
+159,Solution_SPLIT MANUFACTURING_Mentions,1,0,0.37106374
+145,Solution_RATE LIMITING_Mentions,1,0,0.37073496
+194,Solution_IMAGE RECOGNITION_Mentions,1,0,0.37046847
+106,cluster_14_score,1,0,0.36853984
+5,Anomaly Detection,1,0,0.36790696
+117,Disinformation/Misinformation-ALL,1,0,0.3677665
+7,Solution_ATTACK TREE_Mentions,1,0,0.36729577
+131,Mentions-IoT Device Attack,1,0,0.3583481
+39,Machine Learning/Deep Learning,1,0,0.3565796
+92,cluster_0_score,1,0,0.35318723
+119,Brute Force Attack-ALL,1,0,0.35080615
+31,Solution_HONEYPOT_Mentions,1,0,0.34202588
+66,Strong Authentication,1,0,0.0
+8,Solution_BEHAVIOR BASED DETECTION_Mentions,1,0,0.0
+74,Vulnerability Scanner,1,0,0.0
+6,Solution_APPLICATION WHITELISTING_Mentions,1,0,0.0
+87,Mentions-Session Hijacking,1,0,0.0
+68,Traffic Shaping,1,0,0.0
+9,Solution_BLACKHOLING_Mentions,1,0,0.0
+10,Solution_BLACKLISTING_Mentions,1,0,0.0
+69,User Behaviour Analytics,1,0,0.0
+13,Solution_CODE SIGNING_Mentions,1,0,0.0
+52,Solution_PUBLIC KEY INFRASTRUCTURE_Mentions,1,0,0.0
+14,Solution_CONTINUOUS AUTHENTICATION_Mentions,1,0,0.0
+58,Sandboxing,1,0,0.0
+49,Solution_PATCH MANAGEMENT_Mentions,1,0,0.0
+48,Solution_PASSWORD MANAGEMENT_Mentions,1,0,0.0
+47,Solution_PASSWORD HASHING_Mentions,1,0,0.0
+46,Solution_PACKET FILTERING_Mentions,1,0,0.0
+45,Solution_ONE TIME PASSWORD_Mentions,1,0,0.0
+42,Solution_MUTUAL AUTHENTICATION_Mentions,1,0,0.0
+71,Virtual Keyboards,1,0,0.0
+37,Solution_KEYSTROKE DYNAMICS_Mentions,1,0,0.0
+32,Solution_HYPERGAME_Mentions,1,0,0.0
+99,cluster_7_score,1,0,0.0
+26,Solution_FILE INTEGRITY MONITORING_Mentions,1,0,0.0
+15,Solution_Control Flow Integrity_Mentions,1,0,0.0
+59,Secure Boot,1,0,0.0
+25,Solution_DYNAMIC RESOURCE MANAGEMENT_Mentions,1,0,0.0
+60,Session Management,1,0,0.0
+61,Software Defined Network,1,0,0.0
+20,Solution_DATA LOSS PREVENTION_Mentions,1,0,0.0
+94,cluster_2_score,1,0,0.0
+65,Solution_HIDDEN MARKOV MODEL_Mentions,1,0,0.0
+19,Solution_DATA LEAKAGE DETECTION/PREVENTION_Mentions,1,0,0.0
+18,Data Backups,1,0,0.0
+17,Solution_DARKNET MONITORING_Mentions,1,0,0.0
+22,Solution_DECEPTION TECHNOLOGY_Mentions,1,0,0.0
