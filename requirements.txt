@@ -1,0 +1,14 @@
+elsapy==0.5.1
+google_api_python_client==2.198.0
+matplotlib==3.11.1
+numpy==2.5.3
+pandas==3.0.5
+python-dotenv==1.2.3
+scikit_learn==1.9.1
+scipy==1.18.1
+sentence_transformers==5.6.0
+spacy==3.8.15
+torch==2.2.2
+torch_geometric==2.8.0.post1
+umap_learn==0.5.12
+websockets==16.1.1
