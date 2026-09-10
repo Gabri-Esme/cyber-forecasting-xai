@@ -307,7 +307,7 @@ def save_metrics_1d(predict, test, title, type):
 
 
     title=title.replace('/','_')
-    with open('02_model/model/Testing/'+type+'/'+title+'_'+type+'.txt',"w") as f:
+    with open('02_model/model/'+type+'/'+title+'_'+type+'.txt',"w") as f:
       f.write('rse:'+str(rrse)+'\n')
       f.write('rae:'+str(rae)+'\n')
       f.close()
