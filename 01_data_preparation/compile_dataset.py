@@ -7,7 +7,7 @@ from sklearn.impute import SimpleImputer
 from functools import reduce
 
 load_dotenv("01_data_preparation/secrets.env")
-DB_NAME = os.getenv("DB_NAME")
+DB_NAME = os.getenv("DB_PATH")
 conn = sqlite3.connect(DB_NAME)
 
 table_names = ['youtube_data', 'holidays_counter', 'monthly_attacks', 'monthly_pats']
@@ -134,6 +134,7 @@ merged3_df = merged2_df.combine_first(old_df)
 
 merged3_df = merged3_df[merged3_df.index >= pd.Period('2012-01', 'M')]
 merged3_df = merged3_df[merged3_df.index <= pd.Period('2026-08', 'M')]
+merged3_df = merged3_df.drop(columns=['HTTPS', 'Password Policy', 'Password Strength Meters', 'Split Manufacturing'])
 merged3_df = merged3_df.sort_index(ascending=True)
 
 

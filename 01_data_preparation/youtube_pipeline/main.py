@@ -73,5 +73,5 @@ if __name__ == "__main__":
                 ]
 
     # Time range for Query
-    YEARS = [2010, 2022, 2023, 2024, 2025, 2026]
+    YEARS = [2022, 2023, 2024, 2025, 2026]
     main()
